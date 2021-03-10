@@ -10,12 +10,17 @@
 
     <properties>
         <javafx.version>16</javafx.version>
+        <tornadofx.version>1.7.20</tornadofx.version>
+        <controlfx.version>11.1.0</controlfx.version>
+        <pdfbox.version>2.0.22</pdfbox.version>
+        <jmetro.version>11.6.12</jmetro.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.pdfbox</groupId>
             <artifactId>pdfbox</artifactId>
-            <version>2.0.22</version>
+            <version>${pdfbox.version}</version>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
@@ -31,13 +36,19 @@
         <dependency>
             <groupId>org.jfxtras</groupId>
             <artifactId>jmetro</artifactId>
-            <version>11.6.12</version>
+            <version>${jmetro.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.controlsfx/controlsfx -->
         <dependency>
             <groupId>org.controlsfx</groupId>
             <artifactId>controlsfx</artifactId>
-            <version>11.1.0</version>
+            <version>${controlfx.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/no.tornado/tornadofx -->
+        <dependency>
+            <groupId>no.tornado</groupId>
+            <artifactId>tornadofx</artifactId>
+            <version>${tornadofx.version}</version>
         </dependency>
     </dependencies>
 
