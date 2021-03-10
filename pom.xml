@@ -8,6 +8,9 @@
     <name>PDF Viewer</name>
     <version>0.0.1</version>
 
+    <properties>
+        <javafx.version>16</javafx.version>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>org.apache.pdfbox</groupId>
@@ -17,12 +20,18 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>15.0.1</version>
+            <version>${javafx.version}</version>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
-            <version>15.0.1</version>
+            <version>${javafx.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.jfxtras/jmetro -->
+        <dependency>
+            <groupId>org.jfxtras</groupId>
+            <artifactId>jmetro</artifactId>
+            <version>11.6.12</version>
         </dependency>
     </dependencies>
 
