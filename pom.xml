@@ -69,7 +69,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.5</version>
                 <configuration>
-                    <mainClass>sample.Main</mainClass>
+                    <mainClass>jp.ijufumi.pdfviewer.Main</mainClass>
                 </configuration>
             </plugin>
         </plugins>
